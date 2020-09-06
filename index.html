@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rent Management</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="uikit/css/uikit.min.css" />
+    <script src="uikit/js/uikit.min.js"></script>
+    <script src="uikit/js/uikit-icons.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  </head>
+  <body>
+    <div id="app" class="uk-container">
+      <div class="uk-text-center uk-margin-large-top">
+        <div class="uk-align-center uk-card uk-card-default uk-card-body uk-width-1-3">
+          <div>
+            <p class="uk-text-bold">Rent Receipt</p>
+            <p class="uk-text-left">No. 20201234</p>
+            <form class="uk-form uk-grid-small" uk-grid>
+
+              <div class="uk-flex-inline">
+                <label class="uk-text-left uk-form-label"><i>Received from</i></label>
+                <div>
+                  <select class="uk-select uk-margin-large-left">
+                    <option>Jane Doe</option>
+                    <option>John Doe</option>
+                  </select>
+                </div>
+              </div>
+
+               <div class="uk-flex-inline">
+                 <label class="uk-text-left uk-form-label"><i>the sum of</i></label>
+                 <div class="uk-margin-left uk-margin-right">
+                   <input class="uk-input uk-form-width-small" type="text" placeholder="50"><br>
+                 </div>
+                 <label class="uk-text-left uk-form-label"><i>Dollars</i></label>
+               </div>
+
+                <div class="uk-flex-inline">
+                  <div class="uk-margin-right">
+                    <input class="uk-input uk-form-width-small" type="text" placeholder="50">
+                  </div>
+                  <label class="uk-text-left uk-form-label"><i>cents for</i></label>
+                  <div class="uk-margin-small-left uk-margin-small-right">
+                    <select class="uk-select" id="form-stacked-select">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                    </select>
+                  </div>
+                  <label class="uk-text-left uk-form-label"><i>months</i></label>
+                </div>
+
+                <div class="uk-flex-inline">
+                  <label class="uk-text-left uk-form-label"><i>at</i></label>
+                  <div class="uk-margin-small-left uk-margin-small-right">
+                    <select class="uk-select">
+                      <option>Cedar Grove</option>
+                      <option>Somewhere else</option>
+                    </select>
+                  </div>
+                  <label class="uk-text-left uk-form-label"><i>due</i></label>
+                  <div class="uk-margin-small-left">
+                    <input type="text" data-uk-datepicker="{format:'DD.MM.YYYY'}">
+                  </div>
+                </div>
+
+                <div class="uk-flex-inline">
+                  <label class="uk-text-left uk-form-label"><i>from</i></label>
+                  <div class="uk-margin-small-left uk-margin-small-right">
+                    <input class="uk-form-width-small" type="text" data-uk-datepicker="{format:'DD.MM.YYYY'}">
+                  </div>
+                  <label class="uk-text-left uk-form-label"><i>to</i></label>
+                  <div class="uk-margin-small-left uk-margin-xsmall-right">
+                    <input class="uk-form-width-small" type="text" data-uk-datepicker="{format:'DD.MM.YYYY'}">
+                  </div>
+                </div>
+
+                <div class="uk-flex-inline">
+                  <label class="uk-text-left uk-form-label"><i>$</i></label>
+                  <div class="uk-margin-small-left uk-margin-small-right">
+                    <input class="uk-input uk-form-width-small" type="text" value="40,000">
+                  </div>
+                  <label class="uk-text-left uk-form-label"><i>Per</i></label>
+                  <div class="uk-margin-small-left uk-margin-small-right">
+                    <select class="uk-select">
+                      <option>Month</option>
+                      <option>Day</option>
+                      <option>Year</option>
+                    </select>
+                  </div>
+                </div>
+
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+  var app = new Vue({
+    el: '#app',
+      data() {
+        return {
+          message: 'Hello Vue!'
+        }
+      }
+    })
+  </script>
+</html>
