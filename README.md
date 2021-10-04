@@ -1,6 +1,6 @@
 # Simple Sites
 
-[https://yisrae.github.io] (Yisrae Simple Site)
+[Yisrae Simple Site](https://yisrae.github.io)
 
 Basic sites created when I just started website development.
 
