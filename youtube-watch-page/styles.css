@@ -1,0 +1,51 @@
+#everything{
+  background-color: lightgrey;
+  margin-left: 650px;
+  font-style: arial;
+}
+
+ul li{
+  list-style: none;
+}
+
+.top ul li{
+  float: left;
+  margin-top: 70px;
+}
+
+.li1{
+  margin-left: 10px;
+}
+
+.li2{
+  margin-left: 400px;
+}
+
+.top ul li .something{
+  width: 39px;
+}
+
+.youtube{
+  margin-top: 100px;
+  margin-left: 50px;
+  position: absolute;
+}
+.side{
+  padding-left: 30px;
+}
+.side ul li{
+  padding-bottom: 10px;
+  color: grey;
+}
+
+img{
+  width: 15px;
+  border-radius: 1px;
+}
+
+.side{
+  position: absolute;
+  margin-top: 77px;
+  margin-left: 250px;
+  padding-left: 77px;
+}
