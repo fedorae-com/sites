@@ -1,0 +1,26 @@
+div{
+  margin-left: 70px;
+  margin-right: 300px;
+}
+.button{
+  border-radius: 10px;
+  background: skyblue;
+  padding: 15px;
+  width: 200px;
+  color: white;
+}
+
+.form-app{
+  border-width: 10px;
+}
+
+input{
+  margin-left: 15px;
+}
+
+button{
+  border-radius: 10px;
+  background: grey;
+  padding: 5px;
+  width: 200px;
+}
