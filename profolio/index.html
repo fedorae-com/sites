@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Veil</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/uikit.min.css" />
+        <link rel="stylesheet" href="styles.css">
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
+    </head>
+    <body>
+      <!-- OFF CANVAS BUTTON -->
+  <button id="nav-btn" class="uk-button uk-button-secondary uk-margin-small-right" type="button" uk-toggle="target: #offcanvas-usage" uk-sticky>Menu</button>
+      <!-- NAV-BAR -->
+      <nav id="navi" class="uk-navbar-container uk-margin uk-navbar-transparent" uk-navbar uk-sticky>
+        <div class="uk-navbar-center">
+
+            <div class="uk-navbar-center-left"><div>
+                <ul class="uk-navbar-nav">
+
+                <!-- NAV MENU -->
+                    <li class="uk-active"><a href="#">Home</a></li>
+                    <li>
+                        <a href="#">Projects</a>
+                        <div class="uk-navbar-dropdown">
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li class="uk-active"><a href="https://www.fedoraeservices.com" target="_blank">Fedorae</a></li>
+                                <li><a href="https://www.youtube.com/channel/UCgItcvqYx2IEZXShOZrwP4g" target="_blank">Veil</a></li>
+                                <li><a href="https://www.github.com/froshims" target="_blank">GitHub</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div></div>
+            <a class="uk-navbar-item uk-logo" href="#">SW</a>
+            <div class="uk-navbar-center-right"><div>
+                <ul class="uk-navbar-nav">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div></div>
+
+        </div>
+    </nav>
+
+    <!--- BACKGROUND
+    <div id="background">
+      <div class="uk-height-large uk-background-cover uk-light uk-flex" uk-parallax="bgy: -200" style="background-image: url('images/pexels.jpeg');">
+
+    <h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical">Welcome to Veil</h1>
+
+    </div>
+    </div>
+    -->
+    <div class="uk-inline">
+    <img src="images/pexels.jpeg" alt="">
+    <div class="uk-overlay uk-light uk-position-bottom">
+        <div class="uk-height-large uk-background-cover uk-overflow-hidden uk-light uk-flex uk-flex-top" style="background-image: url('images/.jpg');">
+        <div class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical">
+            <h1 uk-parallax="opacity: 0,1; y: -100,0; scale: 2,1; viewport: 0.5;">Welcome to Veil</h1>
+            <p uk-parallax="opacity: 0,1; y: 100,0; scale: 0.5,1; viewport: 0.5;">Web Development Tutorials.</p>
+        </div>
+        </div>
+    </div>
+    </div>
+    
+ <!-- Social Media -->
+    <div id="follow">
+        <h1>Follow Me</h1>
+        <ul>
+          <li><a href="https://www.github.com/froshims" uk-icon="icon:  github"></a></li>
+          <li><a href="#" uk-icon="icon: instagram"></a></li>
+            <li><a href="https://www.youtube.com/channel/UCgItcvqYx2IEZXShOZrwP4g" uk-icon="icon: youtube"></a></li>
+              <li><a href="#" uk-icon="icon: facebook"></a></li>
+        </ul>
+    </div>
+
+    <!-- sub -->
+    <div class="subscription">
+      <h1>Subscribe</h1>
+      <form>
+        <p>Get Notified Of New Updates And Latest News.</p>
+        <div class="input-group">
+        <span class="input-group-label">
+          <i class="fa fa-envelope"></i>
+        </span>
+          <input class="input-group-field" type="email" placeholder="Enter Your Email..." required>
+            <br><br>
+          <button class="button">Sign Up</button>
+        </div>
+      </form>
+    </div>
+
+
+      <!-- OFF CANVAS CODE -->
+    <a href="#offcanvas-usage" uk-toggle></a>
+
+    <div id="offcanvas-usage" uk-offcanvas>
+        <div class="uk-offcanvas-bar">
+
+            <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+            <h3>Menu</h3>
+
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">Projects</a></li>
+                <li class="indent"><a href="https://www.fedoraeservices.com">Fedorae</a></li>
+                <li class="indent"><a href="https://www.youtube.com/channel/UCgItcvqYx2IEZXShOZrwP4g" target="_blank">Veil</a></li>
+                <li class="indent"><a href="https://www.github.com/froshims" target="_blank">GitHub</a></li>
+              </li>
+              <li><a href="about.html">About Veil</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+        </div>
+    </div>
+
+
+
+    <div id="footer-app">
+      <footer>
+        <hr>
+        <img src="images/logo.png" alt="">
+        <a href="https://www.github.com/froshims" uk-icon="icon:  github"></a>
+          <a href="#" uk-icon="icon: instagram"></a>
+            <a href="https://www.youtube.com/channel/UCgItcvqYx2IEZXShOZrwP4g" uk-icon="icon: youtube"></a>
+              <a href="#" uk-icon="icon: facebook"></a>
+        <p>&copy 2019 Veil. All rights reserved.</p>
+      </footer>
+    </div>
+
+     </body>
+</html>

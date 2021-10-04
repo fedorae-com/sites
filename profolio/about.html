@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About Veil</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/uikit.min.css" />
+        <link rel="stylesheet" href="styles.css">
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
+    </head>
+    <body>
+      <!-- OFF CANVAS BUTTON -->
+  <button id="nav-btn" class="uk-button uk-button-secondary uk-margin-small-right" type="button" uk-toggle="target: #offcanvas-usage" uk-sticky>Menu</button>
+      <!-- NAV-BAR -->
+      <nav class="uk-navbar-container uk-margin  uk-navbar-transparent" uk-navbar uk-sticky>
+        <div class="uk-navbar-center">
+
+            <div class="uk-navbar-center-left"><div>
+                <ul class="uk-navbar-nav">
+                    <li class="uk-active"><a href="index.html">Home</a></li>
+                    <li>
+                        <a href="#">Projects</a>
+                        <div class="uk-navbar-dropdown">
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li class="uk-active"><a href="https://www.fedoraeservices.com" target="_blank">Fedorae</a></li>
+                                <li><a href="https://www.youtube.com/channel/UCgItcvqYx2IEZXShOZrwP4g" target="_blank">Veil</a></li>
+                                <li><a href="https://www.github.com/froshims" target="_blank">GitHub</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div></div>
+            <a class="uk-navbar-item uk-logo" href="#">SW</a>
+            <div class="uk-navbar-center-right"><div>
+                <ul class="uk-navbar-nav">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div></div>
+
+        </div>
+    </nav>
+
+    <!--- BACKGROUND -->
+      <div id="about">
+        <h1>About Veil</h1>
+        <img src="images/avatar.jpg" alt="">
+        <p>Shemar is the creator of Fedorae Services and the instructor in all tutorials and courses on YouTube (Veil).</p>
+        <p>Shemar started off building client websites for a company he created called Fedorae Services, Inc. and later on started
+            teaching web development & programming in a simple and understandable way.
+            Shemar now runs one of the top web dev & programming YouTube channels.</p>
+        <p>Shemar is also very family oriented and has a 10 year old daughter named Brianna and a 7 year old son named Nicky who is
+            severely autistic and non-verbal. Work and family is the cornerstone of Shemar's life. </p>
+    </div>
+
+    <!-- OFF CANVAS CODE -->
+  <a href="#offcanvas-usage" uk-toggle></a>
+
+  <div id="offcanvas-usage" uk-offcanvas>
+      <div class="uk-offcanvas-bar">
+
+          <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+          <h3>Menu</h3>
+
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Projects</a></li>
+              <li class="indent"><a href="https://www.fedoraeservices.com">Fedorae</a></li>
+              <li class="indent"><a href="https://www.youtube.com/channel/UCgItcvqYx2IEZXShOZrwP4g" target="_blank">Veil</a></li>
+              <li class="indent"><a href="https://www.github.com/froshims" target="_blank">GitHub</a></li>
+            </li>
+            <li><a href="about.html">About Veil</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+
+      </div>
+  </div>
+
+  <div id="footer-app">
+    <footer>
+      <hr>
+      <img src="images/logo.png" alt="">
+      <a href="https://www.github.com/froshims" uk-icon="icon:  github"></a>
+        <a href="#" uk-icon="icon: instagram"></a>
+          <a href="https://www.youtube.com/channel/UCgItcvqYx2IEZXShOZrwP4g" uk-icon="icon: youtube"></a>
+            <a href="#" uk-icon="icon: facebook"></a>
+      <p>&copy 2019 Veil. All rights reserved.</p>
+    </footer>
+  </div>
+
+     </body>
+</html>
