@@ -1,0 +1,118 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+h1{
+  font: 20px sans-serif;
+}
+
+h2{
+  font: bold 14px Tahoma;
+}
+
+header, section, aside, nav, article{
+  display: block;
+}
+
+body{
+  width:100%;
+  display: -webkit-box;
+  -webkit-box-pack: center;
+}
+
+#big_wrapper{
+  max-width: 1200px;
+  margin: 20px 0px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-flex: 1;
+}
+
+#top_header{
+  margin-left: 150px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  color: lightgrey;
+  float: left;
+  position: absolute;
+}
+
+span{
+  font-size: 30px;
+  padding: 0px;
+  margin-right: 3px;
+  border: 2px solid lightgrey;
+  border-radius: 17px;
+}
+
+#nav-menu{
+  margin-right: 150px;
+}
+
+#nav-menu ul li{
+  padding: 10px;
+  margin: 10px;
+  margin-bottom: 10px;
+  border: red;
+  color: grey;
+  background: #E6E6FA;
+  float: right;
+}
+
+
+
+#nav-menu li{
+  display: inline-block;
+  list-style: none;
+  padding: 5px;
+  font: bold 14px Tahoma;
+}
+
+.content-body{
+  padding: 10px;
+  margin: 10px;
+  background-color: #E6E6FA;
+}
+
+.welcome{
+  padding: 10px;
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  margin-right: 135px;
+  margin-left: 130px;
+}
+
+#another-one{
+  display: -webkit-box;
+  -webkit-box-orient: horizental;
+}
+
+#main_section{
+  -webkit-box-flex: 1;
+  margin: 20px;
+  padding: 20px;
+  margin-left: 114px;
+  color: grey;
+}
+
+.artic{
+  padding: 0px 0px 30px;
+}
+
+#side-area{
+  width: 220px;
+  margin: 20px 20px;
+  padding: 30px;
+  background: #008080;
+  color: white;
+  border-radius: 5px;
+  margin-right: 135px;
+}
+
+#side-area ul li{
+  list-style: none;
+  padding: 4px;
+}

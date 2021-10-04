@@ -1,0 +1,98 @@
+body{
+  margin: 0;
+  padding: 0;
+  background:   #3f5773;
+  height: 100vh;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+.log-me{
+  text-align: center;
+  width: 410px;
+  position: absolute;
+  top: 13%;
+  left: 50%;
+  transform: translate(-47%, -50%);
+  color: white;
+}
+
+
+.something{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  width: 40px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-40%, -50%);
+  transform: rotate(45deg);
+  color: white;
+}
+
+p{
+  font-weight: bold;
+  background: #339fff;
+  text-align: center;
+  padding: 20px;
+  margin: 140px;
+}
+
+.wrapper{
+  text-align: center;
+  width: 430px;
+  margin: 130px auto;
+  position: relative;
+}
+
+.wrapper .header{
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  padding: 25px 0 30px 25px;
+  background: #339fff;
+}
+
+.wrapper form{
+  position: absolute;
+  background: white;
+  width: 100%;
+  padding: 50px 10px 0 30px;
+  box-sizing: border-box;
+}
+
+
+form input{
+  height: 50px;
+  width: 90%;
+  padding: 0 10px;
+  border: 1px solid silver;
+  font-size: 18px;
+  outline: none;
+  margin-right: 10px;
+  color: rgba(77, 0, 255, 0.5);
+}
+
+form input[type="password"]{
+  margin-top: 20px;
+}
+
+
+form input[type="submit"]{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 25px;
+  width: 95%;
+  color: white;
+  cursor: pointer;
+  line-height: 5px;
+  background: #339fff;
+  padding: 10
+}
+
+form input[type="submit"]:hover{
+  background: #3f5773;
+  transition: .5s;
+
+}

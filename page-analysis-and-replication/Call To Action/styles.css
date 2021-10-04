@@ -1,0 +1,29 @@
+#wrapper{
+  margin-left: 310px;
+  margin-right: 675px;
+}
+
+p{
+  margin-left: 25px;
+}
+
+.button{
+  background: skyblue;
+  border-radius: 3px;
+  border: none;
+  padding: 10px;
+  margin-left: 25px;
+  color: white;
+  width: 310px;
+}
+
+footer{
+  text-align: center;
+  color: grey;
+  margin-top: 50px;
+  margin-right: 375px;
+}
+
+a{
+  color: grey;
+}
